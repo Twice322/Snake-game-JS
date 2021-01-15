@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #00ff21, #28c736, #34923a, #346036, #2d302d) no-repeat ;
+}
+html {
+    height: 100%;
+}
+div {
+    color: transparent;
+    margin: 0;
+    padding: 0
+}
+.main {
+    margin: 0 auto;
+    position: relative;
+    height: 760px;
+    width: 1200px;
+
+}
+.board {
+    max-width: 1200px;
+    position: absolute;
+    background: radial-gradient(circle, #a2d149, #9bc944, #94c03f, #8db83a, #86b035) no-repeat;
+    border: 13px solid #492400;
+    margin: 100px auto;
+
+}
+.text {
+    position: absolute;
+    top: 40px; left: 3px;
+    color: white
+}
+
+
+.reset-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
